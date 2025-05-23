@@ -1,11 +1,11 @@
 /* ==== CSS VARIABLES ==== */
 :root {
-  --brand-primary: #1e40af; /* Change this to your brand primary color */
-  --brand-secondary: #facc15; /* Accent color */
+  --brand-primary: #1ab440; /* Change this to your brand primary color */
+  --brand-secondary: #15c1fa; /* Accent color */
   --text-color: #1f2937;
-  --bg-color: #ffffff;
+  --bg-color: #1ab44037;
   --hero-overlay: rgba(0, 0, 0, 0.5);
-  --font-family: 'Inter', sans-serif;
+  --font-family: 'Courier New', monospace;
 }
 
 /* ==== GLOBAL STYLES ==== */
@@ -41,7 +41,7 @@ a:hover {
 /* ==== HERO SECTION ==== */
 .hero {
   position: relative;
-  background-image: url('./img/juneteenth-celebration-with-symbolic-representation-end-slavery-united-states.webp');
+  background-color: #1ab440;
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -79,7 +79,7 @@ a:hover {
 /* ==== BLOG LIST ==== */
 .blog-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr); /* 2 per row */
   gap: 2rem;
   margin-top: 3rem;
 }
@@ -87,10 +87,10 @@ a:hover {
 .blog-card {
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
+ 
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #fffdfd26;
   transition: transform 0.3s ease;
 }
 
@@ -138,7 +138,7 @@ footer {
 
 @media (min-width: 1024px) {
   .blog-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .hero-text h1 {
