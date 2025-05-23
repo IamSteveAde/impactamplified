@@ -1,10 +1,10 @@
 /* Base variables and fonts (match landing page) */
 :root {
-  --brand-primary: #2c3e50;
-  --brand-secondary: #2980b9;
+  --brand-primary:  #1ab440;
+  --brand-secondary: #15c1fa;
   --brand-accent: #3498db;
-  --text-color: #333;
-  --background-color: #fff;
+  --text-color: #1f2937;
+  --background-color: #1ab44037;
   --footer-bg: #2c3e50;
   --footer-text: #fff;
   --link-color: var(--brand-accent);
@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Courier New', monospace;
   color: var(--text-color);
   background-color: var(--background-color);
   margin: 0;

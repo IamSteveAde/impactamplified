@@ -79,7 +79,7 @@ a:hover {
 /* ==== BLOG LIST ==== */
 .blog-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  grid-template-columns: repeat(1, 1fr); /* 2 per row */
   gap: 2rem;
   margin-top: 3rem;
 }
@@ -132,13 +132,13 @@ footer {
 /* ==== RESPONSIVE ==== */
 @media (min-width: 768px) {
   .blog-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .blog-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .hero-text h1 {
